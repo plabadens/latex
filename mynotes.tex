@@ -1,0 +1,37 @@
+\documentclass[twocolumn]{mynotes}
+
+\usepackage{lipsum}
+
+\newcommand{\epz}{\ensuremath{\epsilon_{0}}}
+\newcommand{\muz}{\ensuremath{\mu_{0}}}
+
+
+\title{Electromagnetism 1}
+\subject{Exam notes}
+\author{Pierre Labadens}
+\date{Autumn 2022}
+
+\begin{document}
+  \maketitle
+
+  \tableofcontents
+
+  \section{Introduction}
+
+  \lipsum[1]
+
+  \begin{titlebox}{Maxwell's laws}
+    \begin{align*}
+      \vv{\nabla}\cdot\vv{E} &= \frac{1}{\epz}\rho & \vv{\nabla}\cdot\vv{B} &= 0 \\
+      \vv{\nabla}\times\vv{E} &= -\pd{\vv{B}}{t} & \vv{\nabla}\times\vv{B} &= \muz\vv{J} + \muz\epz\pd{\vv{E}}{t}
+    \end{align*}
+    Note that the above equations assume that the relevant systems are in vacuum.
+  \end{titlebox}
+
+  \subsection{On the prevalence of latin}
+
+  \lipsum
+
+
+
+\end{document}
